@@ -1,13 +1,4 @@
-# RaspberryPi-ADRSZLD_OLED
-
-```sh
-$ sudo apt-get update -y && sudo apt-get install fonts-takao python-pip python3-pip -y
-$ git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git && cd Adafruit_Python_SSD1306/ && sudo python3 setup.py install && cd ..
-$ git clone https://github.com/eclipse/paho.mqtt.python.git && cd paho.mqtt.python && sudo python3 setup.py install && cd ..
-```
-
-```py
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # coding: utf-8
 
 from PIL import Image
@@ -59,4 +50,3 @@ disp.clear()
 disp.display()
 
 draw_gyou()
-```
